@@ -1,7 +1,5 @@
-let result = "";
-
+let r = '';
 for (let i = 10; i >= 1; i--) {
-  result += i + " ";
+    r += i + " ";
 }
-
-console.log(result);
+console.log(r);

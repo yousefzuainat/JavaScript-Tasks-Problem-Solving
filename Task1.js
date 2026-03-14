@@ -1,11 +1,8 @@
-let result = "";
-
+let r = '';
 for (let i = 1; i <= 10; i++) {
-  result += i;
-
-  if (i < 10) {
-    result += "-";
-  }
+    r += i;
+    if (i <10){
+        r+="-";
+    }
 }
-
-console.log(result);
+console.log(r);

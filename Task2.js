@@ -1,7 +1,5 @@
-let sum = 0;
-
-for (let i = 0; i <= 30; i++) {
-  sum += i;
+let r = 0;
+for (let i = 1; i <= 30; i++) {
+    r += i;
 }
-
-console.log(sum);
+console.log(r);
